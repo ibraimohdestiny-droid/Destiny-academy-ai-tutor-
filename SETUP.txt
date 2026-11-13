@@ -1,0 +1,30 @@
+DESTINY ACADEMY AI TUTOR — SETUP
+
+1. Upload these files to the GitHub repository:
+   Destiny-academy-ai-tutor
+
+2. Do NOT upload a real .env file or a real OPENAI_API_KEY.
+
+3. Deploy the repository as a Web Service on Render.
+
+   Build Command:
+   npm install
+
+   Start Command:
+   npm start
+
+4. In Render, add these environment variables:
+
+   OPENAI_API_KEY = your real API key
+   OPENAI_MODEL = gpt-5-mini
+   ALLOWED_ORIGIN = https://ibraimohdestiny-droid.github.io
+
+5. Render will give the backend a URL similar to:
+   https://destiny-academy-ai-tutor.onrender.com
+
+6. Put that backend URL into the website's script.js as the AI API URL.
+
+IMPORTANT:
+- Keep the API key private.
+- Never put the real API key in GitHub.
+- Have a parent/guardian handle any API account or billing setup.
